@@ -1,4 +1,4 @@
-@extends('layout/master')
+@extends('layouts.master')
 
 
 @section('title', 'Mini Twitter')
@@ -26,7 +26,7 @@
     <li>
         <b>
 
-            <a href="/message/{{$message->id}}">{{$message->title}}:</b><br>
+            <a href="/message/{{$message->id}}">{{$message->title}}:</a></b><br>
         {{$message->content}}<br>
         {{$message->created_at->diffForHumans()}}
     </li>

@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <h1><a href="/messages">@yield('title')</a></h1>
+   <h1><a href="/messages">@yield('title')</a></h1>
 
-      @yield('content')
+   @yield('content')
 
-      <div><b>Dummy Footer: {{date('d.m.Y')}}</b></div>
+   <div><b>Dummy Footer: {{date('d.m.Y')}}</b></div>
 </body>
 
 </html>
